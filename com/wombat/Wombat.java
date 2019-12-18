@@ -3,7 +3,7 @@ import java.util.logging.*;
 
 class Wombat {
 
-  Logger logger = Logger.getLogger("com.wombat.wombat");
+  static Logger logger = Logger.getLogger("com.wombat.wombat");
 
   public void sneeze() throws Exception {
     logger.info("I sneezed");
@@ -15,3 +15,14 @@ class Wombat {
   }
 
 }
+/*
+Dec 18, 2019 4:30:34 PM com.wombat.Proboscis main
+INFO: doing stuff
+Dec 18, 2019 4:30:34 PM com.wombat.Wombat sneeze
+INFO: I sneezed
+Dec 18, 2019 4:30:34 PM com.wombat.Proboscis main
+WARNING: trouble sneezing
+java.lang.Exception: I threw!
+	at com.wombat.Wombat.sneeze(Wombat.java:14)
+	at com.wombat.Proboscis.main(Proboscis.java:21)
+*/
