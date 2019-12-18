@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-18T16:30:34</date>
+  <millis>1576683034326</millis>
+  <sequence>0</sequence>
+  <logger>com.wombat.proboscis</logger>
+  <level>INFO</level>
+  <class>com.wombat.Proboscis</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>doing stuff</message>
+</record>
+<record>
+  <date>2019-12-18T16:30:34</date>
+  <millis>1576683034357</millis>
+  <sequence>2</sequence>
+  <logger>com.wombat.proboscis</logger>
+  <level>WARNING</level>
+  <class>com.wombat.Proboscis</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>trouble sneezing</message>
+  <exception>
+    <message>java.lang.Exception: I threw!</message>
+    <frame>
+      <class>com.wombat.Wombat</class>
+      <method>sneeze</method>
+      <line>14</line>
+    </frame>
+    <frame>
+      <class>com.wombat.Proboscis</class>
+      <method>main</method>
+      <line>21</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2019-12-18T16:30:34</date>
+  <millis>1576683034359</millis>
+  <sequence>3</sequence>
+  <logger>com.wombat.proboscis</logger>
+  <level>FINE</level>
+  <class>com.wombat.Proboscis</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>done</message>
+</record>
+</log>
